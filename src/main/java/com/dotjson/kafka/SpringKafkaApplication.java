@@ -16,7 +16,7 @@ public class SpringKafkaApplication {
 	@Bean
 	CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
 		return args -> {
-			for (int i = 0; i < 100000; i++) {
+			for (int i = 0; i < 1; i++) {
 				kafkaTemplate.send("dotjson", "hello kafka! for the " + i + " time");
 			}
 		};
