@@ -43,4 +43,5 @@ where "yourTopic" in this case is replaced by *dotjson*, as it is declared in th
 ### Sources
 
 [Spring for Apache Kafka](https://docs.spring.io/spring-kafka/docs/current/reference/html/)
+
 [Amigos Code Video](https://www.youtube.com/watch?v=SqVfCyfCJqw&t=683s&ab_channel=Amigoscode)
